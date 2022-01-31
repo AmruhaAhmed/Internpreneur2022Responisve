@@ -1,0 +1,477 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+header.begin
+{
+    background:linear-gradient(rgb(0,0,50,0.9),rgba(0,0,50,0.9)),url("./2022-01-18\ 16_52_26-coding\ -\ Google\ Search.png");
+    /* background-image:url(./images.png); */
+    background-size:cover;
+    height:500px;
+}
+header.begin nav.navig ul.selectbar li
+{
+    margin:20px;
+    display:inline-block;
+    font-size:20px;
+} 
+header.begin nav.navig ul.selectbar li a
+{
+    color:lightcoral;
+    text-decoration:none;
+    /* display:inline-block; */
+    margin:2px;
+    padding:15px;
+}
+header.begin nav.navig ul.selectbar li a:hover
+{
+    color:lightgreen;
+    
+}
+header.begin nav.navig ul.selectbar li a:active
+{
+    color:lightskyblue;
+}
+header.begin nav.navig ul.selectbar li a:visited
+{
+    color:plum;
+}
+header.begin nav.navig ul.selectbar li.left
+{
+    float:left;
+}
+header.begin div.name
+{
+    margin-top:150px;
+    text-align:center;
+}
+header.begin div.name h1.n
+{
+    
+    font-size:40px;
+    color:lightcoral;
+    text-align: center;
+    margin:10px;
+
+}
+
+header.begin div.name p.skill
+{
+    font-size:25px;
+    color:lightcoral;
+    text-align: center;
+    margin:10px;
+
+}
+section.aboutme
+{
+    font-size:24px;
+    color:rgba(0,0,90,0.9);
+}
+section.aboutme h2.me
+{
+    text-align:left;
+    background-color: lightcoral;
+    font-weight:bold;
+
+}
+
+section.aboutme div.aboutmesection div.img
+{
+    width:40%;
+    float:left;
+     
+}
+section.aboutme div.aboutmesection div.matter
+{
+    width:60%;
+    float:right;
+    padding:5px;
+    
+
+}
+section.backend
+{
+    font-size:24px;
+    color:rgba(0,0,90,0.9); 
+}
+section.backend h2.be
+{
+   margin-top:400px;
+    text-align:left;
+    background-color: lightcoral;
+    font-weight:bold;
+}
+section.backend div.bend div.imged
+{
+    width:50%;
+    float:left;
+
+}
+section.backend div.bend div.ed
+{
+    float:right;
+    width:50%;
+    padding:5px;
+}
+section.whyme
+{
+    font-size:24px;
+    color:rgba(0,0,90,0.9);
+}
+section.whyme h2.wm
+{
+    margin-top:400px;
+    text-align:left;
+    background-color: lightcoral;
+    font-weight:bold;
+}
+section.whyme div.we div.w
+{
+    padding:5px;
+}
+section.whyme div.we div.sub
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:5px dotted rgba(240, 128, 128, 0.986);
+    margin:30px;
+    height:500px;
+   
+    
+    
+}
+section.whyme div.we div.sub div.f1
+{
+    width:400px;
+}
+section.whyme div.we div.sub div.f2
+{
+    width:400px;
+}
+section.whyme div.we div.sub div.f3
+{
+    width:400px;
+}
+section.whyme a:hover
+{
+    color:seagreen;
+}
+section.whyme a:active
+{
+    color:lightcoral;
+}
+section.whyme a:visited
+{
+    color:teal;
+}
+section.projects
+
+{
+    font-size:24px;
+    color:rgba(0,0,90,0.9);
+
+}
+
+section.projects h2.p
+{
+    margin-top:250px;
+    text-align:left;
+    background-color: lightcoral;
+    font-weight:bold;
+}
+
+section.projects div.pro div.points
+{
+    float:right;
+    width:60%;
+    padding:5px;
+}
+section.projects div.pro img.pic
+{
+    width:40%;
+    float:left;
+
+    
+}
+section.project div.pro div.point p ul li.po a:hover
+{
+    color:seagreen;
+}
+section.project div.pro div.point p ul li.po a :active
+{
+    color:lightcoral;
+}
+section.project div.pro div.point p ul li.po a:visited
+{
+    color:teal;
+}
+section.get
+{
+    
+    background:linear-gradient(rgb(0,0,50,0.9),rgba(0,0,50,0.9)),url("../images.png");
+    background-size:cover;
+    background-color:rgba(0,0,50,0.9);
+background-size:cover;
+    height:300px;
+ 
+}
+section.get div.co
+{
+    margin:500px;
+    font-size:24px;
+    color:lightcoral;
+}
+section.get div.co div.con
+{
+    width:60%;
+    float:right;
+   
+
+
+}
+section.get div.co div.call
+{
+    
+    width:40%;
+    float:left;
+   
+}
+section.get div.co div.con a:hover
+{
+    color:lightgreen;
+    
+}
+section.get div.co div.con a:active
+{
+    color:lightskyblue;
+}
+section.get div.co  div.con a:visited
+{
+    color:plum;
+}
+@media( max-width:500px)
+{
+    *
+    {
+        font-size:15px;
+        
+    }
+    
+    header.begin nav.navig ul.selectbar li
+    {
+        display:none;
+    }
+    header.begin div.name h1
+    {
+        font-size:25px;
+    }
+    header.begin div.name p
+    {
+        font-size:15px;
+    }
+    
+    section.aboutme
+    {
+        width:100%;
+    }
+    
+    section.aboutme h2
+    {
+        font-size:20px;
+    }
+    section.aboutme div.aboutmesection div.abtme,
+    section.aboutme div.aboutmesection div.img
+
+    {
+        font-size:15px;
+        float:none;
+        width:100%;
+        
+    }
+    
+    
+   
+   
+    section.backend{
+        width:100%;
+    }
+    section.backend h2
+    {
+        font-size:20px;
+
+    }
+    
+    section.backend div.bend div.para2,
+    section.backend div.bend div.imged
+    {
+        font-size:15px;
+        float:none;
+        width:100%;
+    }
+
+    
+   
+    section.whyme h2
+    {
+        font-size:20px;
+    }
+    
+    section.whyme div.we div.w
+    {
+        font-size:15px;
+        float:none;
+        width:100%;
+
+    }
+    
+    section.whyme div.we div.sub
+    {
+        border:0px none white;
+        float:none;
+        width:100%;
+       
+        
+    }
+    /*box1*/
+    section.whyme div.we div.sub div.f1 h4
+    {
+        font-size:15px;
+        width:100%;
+        float:none;
+
+    }
+    section.whyme div.we div.sub div.f1 img.png
+    {
+        height:100px;
+        float:none;
+        
+       
+    }
+    
+    section.whyme div.we div.sub div.f1 p ul li.g
+    {
+        font-size:15px;
+        float:none;
+       
+        
+    }
+
+    /*box2*/
+    section.whyme div.we div.sub div.f2 h4
+    {
+        font-size:15px;
+        width:100%;
+        float:none;
+    }
+    section.whyme div.we div.sub div.f2 img.png
+    {
+        width:100px;
+        float:none;
+        
+    }
+    
+    section.whyme div.we div.sub div.f2 p ul li.ea
+    {
+        font-size:15px;
+        float:none;
+        width:100%;
+    }
+    /*box3*/
+    section.whyme div.we div.sub div.f3 h4
+    {
+        font-size:15px;
+        width:100%;
+        float:none;
+    }
+    section.whyme div.we div.sub div.f3 img.jfif
+    {
+        width:100px;
+        float:none;
+        
+    }
+    
+    section.whyme div.we div.sub div.f3 p ul li.tb
+    {
+        font-size:15px;
+        float:none;
+        width:100%;
+    }
+    /*projects*/
+    section.projects{
+        margin-top:50px;
+        width:100%;
+    }
+    section.projects h2.p
+    {
+        font-size:20px;
+
+    }
+    section.projects div.pro div.point{
+
+   
+    font-size:15px;
+        float:none;
+        width:100%;
+    }
+    section.projects div.pro img.pic
+    {
+        width:350px;
+        float:none;
+        
+    }
+    /*footer*/
+    section.get
+    {
+    background:linear-gradient(rgb(0,0,50,0.9),rgba(0,0,50,0.9)),url("../images.png");
+    background-size:cover;
+    background-color:rgba(0,0,50,0.9);
+    background-size:cover;
+    height:200px;
+    }
+    section.get div.co div.con h2{
+        font-size:20px;
+        color:lightcoral;
+        float:none;
+
+    }
+    section.get div.co div.con{
+        font-size: 15px;
+        color:lightcoral;
+        float:none;
+    }
+    section.get div.co div.call img.cm{
+
+        float:none;
+    }
+    header.begin nav.navig ul.selectbar.responsive{
+        position:absolute;
+        background-color:rgb(0,0,50,0.9);
+        color:lightcoral;
+        width:100vw;
+        height:50vh;
+        padding:5px;
+        
+        
+    }
+    header.begin nav.navig ul.selectbar li.dropDownIcon{
+        display:block;
+        position:absolute;
+    }
+    header.begin nav.navig ul.selectbar.responsive li.dropDownIcon{
+        float:left;
+    }
+    header.begin nav.navig ul.selectbar.responsive li{
+        display:block;
+        float:none;
+    }
+
+}
+
+

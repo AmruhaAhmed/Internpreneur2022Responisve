@@ -1,0 +1,42 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(0,0,90,0.9);
+    font-size:24px;
+}
+#h
+{
+   background-color:lightgreen;
+}
+#h2
+{
+   background-color:lightgreen;
+}
+#h3
+{
+   background-color:lightgreen;
+}
+#h31
+{
+    background-color: plum;
+}
+#h32
+{
+    background-color: plum;
+}
+#h33
+{
+    background-color: plum;
+}
+#h5
+{
+   background-color:lightgreen;
+}
+
+
+
